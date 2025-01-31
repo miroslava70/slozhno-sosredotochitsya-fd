@@ -6,6 +6,7 @@
 :root {
   --bg-color: #fff1f7;
   --bg-image: url(../images/cover-image-light.png);
+  --main-font: 'IBM Plex mono';
   --button-text-color: #353430;
   --header-heading-color: #ffc2e6;
   --accent-color: #ff8dcb;

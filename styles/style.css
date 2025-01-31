@@ -80,7 +80,7 @@
 .header__theme-menu-button {
   background-color: transparent;
   border: none;
-  font-family: "IBM Plex mono", sans-serif;
+  font-family: var(--main-font), sans-serif;
   font-weight: normal;
   padding: 1.2px 12.3px;
   text-transform: lowercase;
@@ -111,7 +111,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  font-family: "IBM Plex Mono";
+  font-family: var(--main-font), sans-serif;
   font-size: 18px;
   background-color: var(--bg-color);
   background-position: center;
