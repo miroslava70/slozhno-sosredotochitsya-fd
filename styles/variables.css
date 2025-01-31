@@ -4,11 +4,11 @@
 */
 
 :root {
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --bg-image: url(../images/cover-image-light.png);
   --button-text-color: #353430;
-  --header-heading-color: #FFC2E6;
-  --accent-color: #FF8DCB;
+  --header-heading-color: #ffc2e6;
+  --accent-color: #ff8dcb;
   --text-color: #353430;
   --border-color: #353430;
   --hover-border-color: rgb(53 52 48 / 0.4);

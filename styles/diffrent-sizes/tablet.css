@@ -1,15 +1,15 @@
 @media (min-width: 768px) {
-    .header {
-      margin-bottom: 10.49%;
-    }
-  
-    .header-grid {
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1.789fr;
-    }
-  
-    .header__theme-menu {
-      grid-column: 2;
-      margin-block-start: 32.98%;
-    }
+  .header {
+    margin-bottom: 10.49%;
   }
+
+  .header-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1.789fr;
+  }
+
+  .header__theme-menu {
+    grid-column: 2;
+    margin-block-start: 32.98%;
+  }
+}

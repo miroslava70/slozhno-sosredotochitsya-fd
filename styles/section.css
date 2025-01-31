@@ -84,9 +84,9 @@
     margin-bottom: 9.39%;
   }
 
-	.paragraph:nth-of-type(5n) {
-		margin-bottom: 18.9%;
-	}
+  .paragraph:nth-of-type(5n) {
+    margin-bottom: 18.9%;
+  }
 
   .paragraph:nth-of-type(3) {
     grid-row: 4;
