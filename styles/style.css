@@ -2,6 +2,7 @@
 
 .header {
   margin-bottom: 13.49%;
+  width: 100vw;
 }
 
 .header-grid {
@@ -165,4 +166,8 @@
 
 .main a:focus-visible {
   outline: 1px solid var(--border-color);
+}
+
+.footer {
+  width: 100vw;
 }

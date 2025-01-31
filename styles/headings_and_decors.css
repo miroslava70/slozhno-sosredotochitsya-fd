@@ -38,13 +38,23 @@
   content: "";
   display: block;
   position: absolute;
-  inset-inline-end: 12px;
+  inset-inline-end: 19px;
   inset-block-end: 5px;
   border-radius: 10px;
   width: 9px;
   height: 9px;
   background-color: var(--dot-decor-color);
   box-shadow: 0px 0px 4px 2px var(--dot-decor-color);
+}
+
+@media (min-width: 768px) {
+	.text-decor::before {
+		inset-inline-end: 45px;
+	}
+
+	.text-decor::after {
+		inset-inline-end: 29px;
+	}
 }
 
 .header_heading {
