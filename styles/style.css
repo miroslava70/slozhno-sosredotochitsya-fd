@@ -2,6 +2,8 @@
 
 .header {
   height: 100vh;
+  min-height: 668px;
+  margin-bottom: 29px;
 }
 
 .header-grid {

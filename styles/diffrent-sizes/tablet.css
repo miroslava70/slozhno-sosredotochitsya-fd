@@ -1,6 +1,7 @@
 @media (min-width: 768px) {
   .header {
-    margin-bottom: 10.4%;
+    margin-bottom: 5.2%;
+    min-height: 1024px;
   }
 
   .header-grid {

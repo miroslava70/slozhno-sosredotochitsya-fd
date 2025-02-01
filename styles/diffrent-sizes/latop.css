@@ -1,8 +1,7 @@
 @media (min-width: 1024px) {
   .header {
-    margin-bottom: 78.7%;
-    height: 0;
-    min-height: 0;
+    margin-bottom: 38px;
+    min-height: 768px;
   }
   .header__theme-menu {
     grid-column: 1/3;
