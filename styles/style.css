@@ -1,10 +1,5 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-.header {
-  height: 83vmax;
-  min-height: 697px;
-}
-
 .header-grid {
   display: grid;
   grid-template-columns: 1fr;
