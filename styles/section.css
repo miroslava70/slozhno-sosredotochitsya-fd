@@ -12,11 +12,11 @@
   }
 
   .paragraph:nth-of-type(2n):not(:nth-of-type(2n + 4)) {
-    margin-bottom: 12.69%;
+		margin-bottom: 13.2%;
   }
 
   .paragraph:nth-of-type(5n) {
-    margin-bottom: 8.69%;
+		margin-bottom: 8.29%;
   }
 
   .paragraph:nth-of-type(1) {
