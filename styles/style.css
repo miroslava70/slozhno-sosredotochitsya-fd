@@ -100,19 +100,7 @@
 
 .main-text {
   display: grid;
-  gap: 20px;
-}
-
-@media (min-width: 768px) {
-  .main-text {
-    column-gap: 41px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .main-text {
-    column-gap: 21px;
-  }
+  gap: 19.7px;
 }
 
 .main {

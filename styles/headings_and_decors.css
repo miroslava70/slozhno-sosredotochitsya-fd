@@ -94,7 +94,12 @@ h4[class="title-decor"] {
 }
 
 .header_title.title-decor {
-  margin-bottom: 8.9%;
+	margin-bottom: 8.2%;
+	line-height: 1.3em;
+}
+
+.title-decor.gallery_title-decor {
+	margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
@@ -117,7 +122,7 @@ h4[class="title-decor"] {
   }
 
   .header_title.title-decor {
-    margin-bottom: 36.2%;
+    margin-bottom: 35.9%;
   }
 }
 
