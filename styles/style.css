@@ -128,7 +128,3 @@
 .main a:focus-visible {
   outline: 1px solid var(--border-color);
 }
-
-.footer {
-  height: 79vh;
-}
