@@ -19,18 +19,7 @@
   --hover-border-color: rgb(53 52 48 / 0.4);
   --title-decor-color: #353430;
   --text-decor-color: transparent;
+  --section-heading-color: #353430;
+  --dot-decor-color: transparent;
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  --bg-color: #fff1f7;
-  --bg-image: url(../images/cover-image-light.png);
-  --button-text-color: #353430;
-  --header-heading-color: #ffc2e6;
-  --accent-color: #ff8dcb;
-  --text-color: #353430;
-  --border-color: #353430;
-  --hover-border-color: rgb(53 52 48 / 0.4);
-  --title-decor-color: #353430;
-  --text-decor-color: transparent;
-}

@@ -1,16 +1,13 @@
 @media (min-width: 1024px) {
-  .header {
-    margin-bottom: 38px;
-    min-height: 768px;
-  }
+  
   .header__theme-menu {
     grid-column: 1/3;
-    margin-block-start: -4.3%;
+    margin-block: -3.9px;
     margin-inline: 38.8%;
   }
 
   .header__theme-menu-item {
-    margin-right: 12px;
+    margin-right: 9.99px;
     margin-block: -1px;
   }
 
