@@ -6,7 +6,6 @@
   height: 25px;
   margin-inline-start: auto;
   border-style: solid solid none none;
-  position: absolute;
 }
 
 .decorated-zone::after {
@@ -16,6 +15,7 @@
   border-style: none none solid solid;
   width: 25px;
   height: 25px;
+  position: absolute;
 }
 
 .text-decor {
@@ -45,13 +45,13 @@
 }
 
 @media (min-width: 768px) {
-	.text-decor::before {
-		inset-inline-end: 45px;
-	}
+  .text-decor::before {
+    inset-inline-end: 45px;
+  }
 
-	.text-decor::after {
-		inset-inline-end: 29px;
-	}
+  .text-decor::after {
+    inset-inline-end: 29px;
+  }
 }
 
 .title-heading {
@@ -59,14 +59,14 @@
   text-shadow: 4px 4px 0px var(--accent-color);
   color: var(--header-heading-color);
   font-weight: var(--font-weight-vll);
-  margin: 17.9% 0 14.6% 10px;
+  margin: 18.9% 0 15.4% 1px;
   line-height: 0.82em;
 }
 
 h2[class="title-heading"] {
   display: flex;
   justify-self: center;
-	margin: 66.8% 0px;
+  margin: 70.8% 0px;
 }
 
 h4[class="title-decor"] {
@@ -74,12 +74,11 @@ h4[class="title-decor"] {
 }
 
 .title-decor.title-decor_margin-bottom {
-  margin-bottom: 1.3px;
+  margin-bottom: 19.3px;
 }
 
 .header_title {
   justify-self: end;
-  margin-inline: var(--margin);
 }
 
 .title-decor {
@@ -91,17 +90,17 @@ h4[class="title-decor"] {
 }
 
 .header_title.title-decor {
-	margin-bottom: 8.2%;
-	line-height: 1.3em;
+  margin-bottom: 8.2%;
+  line-height: 1.3em;
 }
 
 .title-decor.gallery_title-decor {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
   .title-heading {
-    margin: 22.8% 0 14.6% 0px;
+    margin: 0;
     grid-column: 1/3;
   }
 
@@ -119,13 +118,13 @@ h4[class="title-decor"] {
   }
 
   .header_title.title-decor {
-    margin-bottom: 35.9%;
+    margin-bottom: 0;
   }
 }
 
 @media (min-width: 1024px) {
   .title-heading {
-    margin: 8.4% 0 11.5% 0px;
+    margin: 0;
   }
 
   .header_title.title-decor {

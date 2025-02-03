@@ -4,6 +4,11 @@
   margin-bottom: 49.79px;
 }
 
+.section.section_gap {
+  grid-template-columns: 1fr 2fr;
+  column-gap: 21px;
+}
+
 .paragraph_line-height {
   line-height: 1.299em;
 }
@@ -15,17 +20,17 @@
     margin-bottom: 82.9px;
   }
 
-  .card-column {
+  .card_grid-column {
     grid-column: 2/4;
   }
 
-  .card-adataption {
+  .card_grid {
     grid-column: 1/4;
   }
 }
 
 @media (min-width: 1024px) {
-  .card-adataption {
+  .card_grid {
     grid-column: inherit;
     grid-row: 2;
   }

@@ -6,7 +6,7 @@
 :root {
   --bg-color: #fff1f7;
   --bg-image: url(../images/cover-image-light.png);
-  --main-font: 'IBM Plex mono';
+  --main-font: "IBM Plex mono";
   --button-text-color: #353430;
   --header-heading-color: #ffc2e6;
   --accent-color: #ff8dcb;
@@ -19,18 +19,17 @@
   --font-weight-lv: 400;
   --font-weight-vll: 700;
   --font-size: 18px;
-  --margin: 10px;
+  --padding: 10px;
 }
 
 @media (min-width: 768px) {
   :root {
-    --margin: 20px;
+    --padding: 20px;
   }
 }
 
 @media (min-width: 1024px) {
   :root {
-    --margin: 21px;
     --title-heading-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
