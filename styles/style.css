@@ -57,6 +57,14 @@
   }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header__theme-menu-list {
+    margin-inline: -19px;
+    margin-block-start: 143px;
+  }
+  
+}
+
 .header__theme-menu-button {
   background-color: transparent;
   border: none;

@@ -59,7 +59,7 @@
   text-shadow: 4px 4px 0px var(--accent-color);
   color: var(--header-heading-color);
   font-weight: var(--font-weight-vll);
-  margin: 18.9% 0 15.4% 1px;
+  margin-block: 57px;
   line-height: 0.82em;
 }
 
@@ -74,7 +74,7 @@ h4[class="title-decor"] {
 }
 
 .title-decor.title-decor_margin-bottom {
-  margin-bottom: 19.3px;
+  margin-bottom: 1.2px;
 }
 
 .header_title {
@@ -100,7 +100,7 @@ h4[class="title-decor"] {
 
 @media (min-width: 768px) {
   .title-heading {
-    margin: 0;
+    margin: 173px -20px 163px;
     grid-column: 1/3;
   }
 
@@ -133,5 +133,9 @@ h4[class="title-decor"] {
 
   h2[class="title-heading"] {
     margin: 26.8% 0px;
+  }
+
+  .section_heading-margin-block {
+    margin-block-end: 20px;
   }
 }

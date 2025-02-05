@@ -4,9 +4,9 @@
   margin-bottom: 49.79px;
 }
 
+
 .section.section_gap {
-  grid-template-columns: 1fr 2fr;
-  column-gap: 21px;
+  column-gap: 20px;
 }
 
 .paragraph_line-height {
@@ -15,9 +15,10 @@
 
 @media (min-width: 768px) {
   .section {
+    grid-template-columns: 1fr 2fr;
     align-items: start;
-    column-gap: 32px;
-    margin-bottom: 82.9px;
+    column-gap: 40px;
+    margin-bottom: 78.9px;
   }
 
   .card_grid-column {
@@ -27,11 +28,22 @@
   .card_grid {
     grid-column: 1/4;
   }
+
+  .section_advies {
+    display: grid;
+    row-gap: 20px;
+  }
 }
 
 @media (min-width: 1024px) {
   .card_grid {
     grid-column: inherit;
     grid-row: 2;
+  }
+
+  .cards_row-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 }
