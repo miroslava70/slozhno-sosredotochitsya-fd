@@ -59,7 +59,7 @@
 @media (min-width: 1024px) {
   .section {
     column-gap: 19.9px;
-    margin-bottom: 80.99px;
+    margin-bottom: 77.99px;
   }
 
   .section.section_gap {
@@ -78,6 +78,6 @@
   }
 
   .section_advies {
-    row-gap: 20px;
+    row-gap: 19px;
   }
 }
