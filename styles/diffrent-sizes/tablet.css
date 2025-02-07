@@ -1,7 +1,11 @@
 @media (min-width: 768px) {
+  .header {
+    max-height: 1024px;
+  }
+
   .header-grid {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1.789fr;
+    grid-template-rows: 2.13fr 1fr 1.51fr;
   }
 
   .header__theme-menu {

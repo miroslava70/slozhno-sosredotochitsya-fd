@@ -1,12 +1,23 @@
 .section {
   display: grid;
-  row-gap: 20px;
-  margin-bottom: 49.79px;
+  row-gap: 19.4px;
+  margin-bottom: 49.8px;
 }
 
+.cards_row-grid {
+  display: grid;
+  row-gap: 19.8px;
+  margin-bottom: 49px;
+}
+
+.section_advies {
+  display: grid;
+  row-gap: 19.5px;
+}
 
 .section.section_gap {
   column-gap: 20px;
+  margin-bottom: 50.9px;
 }
 
 .paragraph_line-height {
@@ -17,9 +28,20 @@
   .section {
     grid-template-columns: 1fr 2fr;
     align-items: start;
-    column-gap: 40px;
+    column-gap: 38.9px;
     margin-bottom: 78.9px;
   }
+
+  .cards_row-grid {
+    display: grid;
+    row-gap: 19px;
+    margin-block-end: 81px;
+  }
+
+  .section.section_gap {
+    margin-bottom: 81.9px;
+  }
+
 
   .card_grid-column {
     grid-column: 2/4;
@@ -30,20 +52,32 @@
   }
 
   .section_advies {
-    display: grid;
-    row-gap: 20px;
+    row-gap: 19px;
   }
 }
 
 @media (min-width: 1024px) {
+  .section {
+    column-gap: 19.9px;
+    margin-bottom: 80.99px;
+  }
+
+  .section.section_gap {
+    column-gap: 11px;
+    margin-bottom: 121.9px;
+  }
+
   .card_grid {
     grid-column: inherit;
     grid-row: 2;
   }
 
   .cards_row-grid {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+  }
+
+  .section_advies {
+    row-gap: 20px;
   }
 }
