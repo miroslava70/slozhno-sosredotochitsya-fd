@@ -1,12 +1,10 @@
 @media (min-width: 1024px) {
-  .header {
-    max-height: 768px;
-  }
-
   .header__theme-menu {
-    grid-column: 1 / 3;
-    margin-block: -28.9px;
-    margin-inline: 38.3%;
+    grid-column: 1 / 4;
+    justify-self: center;
+    align-self: start;
+    margin-inline: 10px 0;
+    margin-block: 0.4px 0;
   }
 
   .header__theme-menu-item {
@@ -16,10 +14,5 @@
 
   .main {
     padding: 60px 20px;
-  }
-
-  .main-text {
-    column-gap: 21px;
-    row-gap: 19.789px;
   }
 }

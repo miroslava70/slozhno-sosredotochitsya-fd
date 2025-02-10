@@ -1,24 +1,18 @@
 @media (min-width: 768px) {
   .header {
-    max-height: 1024px;
-  }
-
-  .header-grid {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2.13fr 1fr 1.51fr;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr min-content 1fr;
   }
 
   .header__theme-menu {
-    grid-column: 2;
-    margin-block-start: 0;
+    margin-block: 0 8px;
+    grid-row: 1;
+    grid-column: 3;
+    align-self: center;
+    margin-inline-end: 1.3px;
   }
 
   .main {
-    padding: 60px 20px;
-  }
-
-  .main-text {
-    column-gap: 19.5px;
-    row-gap: 19.9px;
+    padding: 57px 20px;
   }
 }
